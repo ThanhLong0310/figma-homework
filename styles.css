@@ -7,10 +7,8 @@ body {
 
     background-size: cover;
     background-position: center;
-
     text-align: left;
     text-align: justify;
-
     padding: 30px, 42px, 30px, 42px;
     margin: 60px;
 
@@ -31,7 +29,6 @@ h1 {
     font-size: 36px;
     line-height: 46px;
     letter-spacing: 0.1em;
-
     /* black/2 5 */
     color: #444B59;
 }
@@ -53,7 +50,6 @@ h1 {
     letter-spacing: 0.1em;
     transform: translate(80%, 245%);
     /* black/2 5 */
-
     color: var(--light-blue, darkblue);
 }
 
@@ -66,7 +62,6 @@ h1 {
     /* identical to box height */
 
     letter-spacing: 0.1em;
-
     /* black/2 5 */
     color: #444B59;
 
@@ -253,7 +248,6 @@ h4:after {
     /* white */
     background: #FFFFFF;
     /* dark blue /1 8 */
-
     border: 2px solid #789ADE;
     border-radius: 8px;
 
@@ -311,7 +305,6 @@ h4:after {
     /* white */
     background: #FFFFFF;
     /* dark blue /1 8 */
-
     border: 2px solid #789ADE;
     border-radius: 8px;
 
@@ -389,8 +382,17 @@ h4:after {
     text-align: right;
 
     position: absolute;
-    right: 230px;
+    right: 250px;
     bottom: -23px;
+    cursor: pointer;
+}
+
+.expand-less {
+    position: absolute;
+    left: 80px;
+    right: 10px;
+    top: 20px;
+    bottom: 80px;
     cursor: pointer;
 }
 
@@ -403,9 +405,18 @@ h4:after {
     text-align: right;
 
     position: absolute;
-
     right: 70px;
     top: 8px;
+    cursor: pointer;
+}
+
+.home {
+    position: absolute;
+    right: -10px;
+    left: 80px;
+    top: 25px;
+    bottom: 0px;
+    z-index: 4;
     cursor: pointer;
 }
 
