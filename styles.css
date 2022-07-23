@@ -224,6 +224,7 @@ input::-webkit-input-placeholder {
     opacity: 0.5;
     position: relative;
     left: -60px;
+    cursor:pointer;
 }
 
 h4 {
@@ -378,6 +379,7 @@ h4:after {
     line-height: 27px;
     letter-spacing: 0.1em;
     text-align: right;
+    cursor:pointer;
 }
 
 .contacts-button {
@@ -391,6 +393,7 @@ h4:after {
     position: absolute;
     right: 400px;
     bottom: -21px;
+    cursor:pointer;
 }
 
 .english-button {
@@ -404,6 +407,7 @@ h4:after {
     position: absolute;
     right: 230px;
     bottom: -23px;
+    cursor:pointer;
 }
 
 .sign-button {
@@ -418,6 +422,7 @@ h4:after {
 
     right: 70px;
     top: 8px;
+    cursor:pointer;
 }
 
 .image {
