@@ -184,7 +184,7 @@ input::-webkit-input-placeholder {
     line-height: 27px;
     letter-spacing: 0.1em;
     text-align: left;
-    cursor: pointer;
+    cursor:pointer;
 }
 .continue {
     position: relative;
@@ -194,6 +194,8 @@ input::-webkit-input-placeholder {
     z-index: 2;
     right:-30px;
     left:-50px;
+    font-size:20px;
+    cursor:pointer;
 }
 
 .continue::after {
